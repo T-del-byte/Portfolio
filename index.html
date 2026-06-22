@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website </title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/93b80d370e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+            <div class="container">
+                <img src="logoo.png" >
+                <nav >
+                    <!-- <img src="tanisha-high-resolution-logo.png" > -->
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Work</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Graduate Engineer Trainee</p>
+                    <h1>Hi, I am <span>Tanisha</span> Nath </h1>
+                </div>
+        </div>
+    </div>
+    <!-- ---------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col-1">
+                    <img src="photo1676371861.jpeg" >
+                </div> -->
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Graduate Engineer Trainee at Reliance Industries Limited with a Bachelor's degree in Electronics and Instrumentation Engineering. I am passionate about solving engineering problems through technology and have a strong interest in both the Core Engineering and Information Technology (IT) sectors. I enjoy learning new technologies, working on real-world projects, and continuously improving my technical and analytical skills. My areas of interest include Industrial Automation, Instrumentation, Embedded Systems, Web Development, Data Analysis, and Software Development. Feel free to explore my portfolio to get a glimpse of my work and the story it tells.<br>
+                    Thank you for visiting, and I look forward to connecting with you!</p>
+                    <div class="about-col-2">
+                    <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Industrial Automation</span><br>Industrial Instrumentation</li>
+                        <li><span>Web Development</span><br>Designing websites</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024-2025</span><br>Internship at IOCL   <a href="https://drive.google.com/file/d/12KeLX_4p5C_vJ8pjTT2s5t8E2IMjHSex/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                        <li><span>2025</span><br>Internship at NIC      <a href="https://drive.google.com/file/d/19tPiE_QeupRqOM6weRmJt6dRqHrswvMf/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2026</span><br>B.tech in Electronics and Instrumentation Engineering from National Institute of Technology Agartala</li>
+                        <li><span>2021</span><br>Higher Secondary from SBHS</li>
+                        <li><span>2019</span><br>Secondary from GVHS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------services------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Work</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Software & Web Development</h2>
+                    <p>Building responsive websites and web applications using modern front-end technologies while continuously expanding my programming skills.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Industrial Instrumentation</h2>
+                    <p>Working with industrial instruments, measurement systems, and process monitoring to ensure efficient and reliable operations.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-satellite-dish"></i>
+                    <h2>Automation & Control Systems</h2>
+                    <p>Learning and applying PLC, DCS, SCADA, and control system concepts to automate industrial processes.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------portfolio-------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="apples.png" alt="">
+                    <div class="layer">
+                        <h3>Electronics Impedance Spectroscopy</h3>
+                        <p>To evaluate the freshness and quality of fruits using Electrochemical Impedance Spectroscopy (EIS) by analyzing their electrical impedance characteristics over time.</p>
+                        <a href="https://github.com/T-del-byte/EIS"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://terrapass.com/wp-content/uploads/2025/02/AdobeStock_345374024-1-scaled-1.jpeg">
+                    <div class="layer">
+                        <h3>Air flow Sensor</h3>
+                        <p>The objective of an air flow sensor is to measure the rate of airflow in a system, providing data to optimize ventilation, air quality control, and energy efficiency in applications such as HVAC systems, industrial processes, and automotive engines.</p>
+                        <a href="https://github.com/T-del-byte/Air_Flow_Sensor"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://agri-route.com/cdn/shop/articles/why-drip-irrigation-not-popular-in-pakistan-despite-subsidies-1619523401-3405.jpg?v=1683711136">
+                    <div class="layer">
+                        <h3>Smart Irrigation System</h3>
+                        <p>The objective of a smart irrigation system is to optimize water usage by automatically monitoring soil moisture, weather conditions, and crop requirements, ensuring efficient and sustainable irrigation. This reduces water wastage, lowers costs, and promotes healthier plant growth.</p>
+                        <a href="https://github.com/T-del-byte/Smart_Irrigation_System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work-list">
+                <div class="work">
+                    <img src="heart pulse.png">
+                    <div class="layer">
+                        <h3>Heart Pulse Sensor</h3>
+                        <p>The objective of a heart pulse sensor is to detect and measure the heartbeat or pulse rate of an individual by sensing blood flow changes in the body. These sensors are widely used in health monitoring systems and wearable devices.</p>
+                        <a href="https://github.com/T-del-byte/HEART_PULSE_SENSOR"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="parking lot.png">
+                    <div class="layer">
+                        <h3>Parking lot using Counter</h3>
+                        <p>The objective of using a counter system in a parking lot is to manage and monitor the number of vehicles entering and exiting the facility, ensuring that parking space is utilized efficiently and effectively.</p>
+                        <a href="https://github.com/T-del-byte/Parking_Lot_using_Counter"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://routenote.com/blog/wp-content/uploads/2026/04/Screenshot-2025-07-24-124625.png">
+                    <div class="layer">
+                        <h3>Youtube Clone</h3>
+                        <p>To develop a responsive YouTube clone that replicates the core features and user interface of YouTube using modern web technologies.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+    <!-- ----------------------------------------------contact---------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>tanishanath2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9378046013</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/jobs/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/T-del-byte"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="core.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><p>Copyright o Tanisha . Made  with <i class="fa-solid fa-heart"></i> by Tanisha Nath</p></div>
+    </div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7c1FYXxJoQuyiIxV54A_BsVmGkPBkmV0qwlUEQl_6XzyfvqiVtShIYlVcY-djSuBfvw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
